@@ -58,14 +58,14 @@ Three algorithms were trained using complete preprocessing pipelines (imputation
 ## 🔍 5. Feature Importance
 ![Gráfico de Importância SHAP](https://raw.githubusercontent.com/danmca19/ML-Flight-Price-Forecasting/main/SHAP.png)
          
-         | Feature | Importance | Interpretation |
-         |----------|-------------|----------------|
-         | `class_Business` | 0.46 | Ticket class is the **strongest predictor** of price. |
-         | `class_Economy` | 0.40 | Reinforces the major influence of travel class. |
-         | `duration` | 0.12 | Longer flights tend to have higher fares. |
-         | `days_left` | 0.03 | Fewer days before departure → higher price. |
-         | `airline_Vistara` | 0.01 | Some airlines consistently charge premium fares. |
-         | `source_city_Delhi` | 0.01 | Departure city mildly impacts ticket cost. |
+| Feature | Importance | Interpretation |
+|----------|-------------|----------------|
+| `class_Business` | 0.46 | Ticket class is the **strongest predictor** of price. |
+| `class_Economy` | 0.40 | Reinforces the major influence of travel class. |
+| `duration` | 0.12 | Longer flights tend to have higher fares. |
+| `days_left` | 0.03 | Fewer days before departure → higher price. |
+| `airline_Vistara` | 0.01 | Some airlines consistently charge premium fares. |
+| `source_city_Delhi` | 0.01 | Departure city mildly impacts ticket cost. |
 
 📊 **Interpretation:**  
 The model aligns with real-world pricing patterns:  
