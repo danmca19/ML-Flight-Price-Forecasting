@@ -56,7 +56,10 @@ Three algorithms were trained using complete preprocessing pipelines (imputation
 ---
 
 ## 🔍 5. Feature Importance
-![Gráfico de Importância SHAP](https://raw.githubusercontent.com/danmca19/ML-Flight-Price-Forecasting/main/SHAP.png)
+<p align="left">
+  <img src="https://raw.githubusercontent.com/danmca19/ML-Flight-Price-Forecasting/main/SHAP.png" alt="Gráfico de Importância SHAP">
+</p>
+
          
 | Feature | Importance | Interpretation |
 |----------|-------------|----------------|
