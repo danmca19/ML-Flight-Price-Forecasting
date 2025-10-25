@@ -80,13 +80,9 @@ The model aligns with real-world pricing patterns:
 ### 🔧 Model Improvement Recommendations
 1. **Add new time-based features**
    - Include `day_of_week`, `month`, `is_holiday`, `season` to capture temporal effects.
-2. **Create interaction features**
-   - Combine variables such as `source_city + departure_time` to reveal specific pricing dynamics.
-3. **Apply feature selection**
-   - Reduce redundant one-hot encoded features to accelerate training and reduce overfitting risk.
-4. **Try advanced algorithms**
+2. **Try advanced algorithms**
    - Test **XGBoost**, **LightGBM**, or **CatBoost** for improved accuracy and efficiency.
-5. **Use Bayesian hyperparameter optimization**
+3. **Use Bayesian hyperparameter optimization**
    - Replace RandomizedSearchCV with **Optuna** or **scikit-optimize (skopt)** for faster tuning.
 
 ---
