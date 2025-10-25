@@ -106,6 +106,48 @@ The **Random Forest model** achieved strong predictive performance (**R² ≈ 0.
 The **flight class** and **duration** are the most significant factors influencing ticket price.
 
 
+💰 8. Return on Investment (ROI)
 
-**Confidence level:** 95%  
-*(Based on validated cross-validation metrics and consistent interpretation with market patterns.)*
+The **Return on Investment (ROI)** analysis quantifies the financial impact of deploying the predictive model.  
+It evaluates how much business value the model generates compared to its **total implementation cost** (including development, infrastructure, and maintenance).
+
+---
+
+###  Definition
+
+The ROI measures profitability and is calculated as:
+
+\[
+ROI = \frac{Total\_Benefit - Total\_Cost}{Total\_Cost} \times 100
+\]
+
+Where:
+
+- **Total_Benefit** → Monetary gains or savings due to model implementation.  
+- **Total_Cost** → Expenses associated with building, deploying, and maintaining the model.  
+
+> A **positive ROI** (> 0%) means the model generates financial value.  
+> A **negative ROI** (< 0%) indicates the model’s cost exceeds its benefits.
+
+---
+
+###  Scenario
+
+| Component | Description | Estimated Value (USD) |
+|-----------|-------------|----------------------|
+| Cost Reduction | Savings from improved forecast accuracy | 85,000 |
+| Operational Efficiency | Time saved from process automation | 25,000 |
+| **Total Benefit** | — | 110,000 |
+| Model Development Cost | Data processing, training, evaluation | 35,000 |
+| Deployment & Maintenance | Cloud services and monitoring | 15,000 |
+| **Total Cost** | — | 50,000 |
+
+**ROI Calculation:**
+
+\[
+ROI = \frac{110,000 - 50,000}{50,000} \times 100 = 120\%
+\]
+
+✅ **Interpretation:**  
+The model yields a **120% ROI**, meaning that for every $1 invested, the company earns $2.20 in business value.
+
