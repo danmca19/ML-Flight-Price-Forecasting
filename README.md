@@ -106,7 +106,7 @@ The **Random Forest model** achieved strong predictive performance (**R² ≈ 0.
 The **flight class** and **duration** are the most significant factors influencing ticket price.
 
 
-💰 8. Return on Investment (ROI)
+## 💰 8. Return on Investment (ROI)
 
 The **Return on Investment (ROI)** analysis quantifies the financial impact of deploying the predictive model.  
 It evaluates how much business value the model generates compared to its **total implementation cost** (including development, infrastructure, and maintenance).
