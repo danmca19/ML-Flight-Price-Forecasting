@@ -75,10 +75,10 @@ The model achieves **strong predictive performance** in an airline market known 
 
 ### 🔄 Price Volatility Context
 
-- **Low-cost airlines** such as **Gol** or **Azul** generally maintain ticket averages between **R$800 and R$1,500**, with moderate variability (±25%).  
+- **Low-cost airlines** generally maintain ticket averages between **R$800 and R$1,500**, with moderate variability (±25%).  
   → In this range, a prediction error of R$4,000 would be **significant**, since it could double or triple the real value.  
 
-- **Mid-tier or international carriers** such as **LATAM**, **TAP**, or **Lufthansa** operate with averages around **R$4,000–R$10,000**, and variations up to ±40%.  
+- **Mid-tier or international carriers** operate with averages around **R$4,000–R$10,000**, and variations up to ±40%.  
   → Here, an RMSE of R$4,000 means the model might predict R$8,000 for a R$10,000 ticket — an **acceptable 20% deviation** for dynamic pricing insights.  
 
 - **Premium airlines with high-end offerings**, especially **Vistara** and **Air India**, can reach **ticket prices above R$100,000** for luxury or long-haul business class.  
