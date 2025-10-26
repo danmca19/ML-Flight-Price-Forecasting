@@ -53,6 +53,39 @@ Three algorithms were trained using complete preprocessing pipelines (imputation
 
 ➡️ The model generalizes very well, capturing the main price behavior patterns across routes and conditions.
 
+
+## ✈️ Business Interpretation of Model Metrics
+
+| **Metric** | **Value** | **Interpretation for Business Teams** |
+|-------------|------------|----------------------------------------|
+| **RMSE** | R$ 4,365.10 | The average total prediction error is about R$4.4K — indicating strong adherence in a market with high price volatility. |
+| **MAE** | R$ 2,433.30 | On average, the model misses the real ticket price by approximately R$2.4K per flight. |
+| **MAPE** | 16.66% | Predictions are, on average, within ±16.6% of the actual ticket price. |
+| **Median Absolute Error** | R$ 1,105.69 | Half of the predictions have an error smaller than R$1.1K. |
+| **RMSE vs. Average Price** | 20.92% | The error represents around 1/5 of the average price — acceptable for an initial pricing prediction model. |
+| **Accuracy within ±10%** | 44.98% | Nearly half of the predictions are within 10% of the true price. |
+
+---
+
+### 💡 Practical Summary
+
+The model achieves **strong predictive performance** in an airline market known for **extreme volatility** — driven mainly by the **airline company** and the **class of service** (Economy vs. Business).
+
+---
+
+### 🔄 Price Volatility Context
+
+- **Low-cost airlines** such as **Gol** or **Azul** generally maintain ticket averages between **R$800 and R$1,500**, with moderate variability (±25%).  
+  → In this range, a prediction error of R$4,000 would be **significant**, since it could double or triple the real value.  
+
+- **Mid-tier or international carriers** such as **LATAM**, **TAP**, or **Lufthansa** operate with averages around **R$4,000–R$10,000**, and variations up to ±40%.  
+  → Here, an RMSE of R$4,000 means the model might predict R$8,000 for a R$10,000 ticket — an **acceptable 20% deviation** for dynamic pricing insights.  
+
+- **Premium airlines with high-end offerings**, especially **Vistara** and **Air India**, can reach **ticket prices above R$100,000** for luxury or long-haul business class.  
+  → In such extreme cases, a R$4,000 RMSE represents **less than 5% error**, which is **remarkably precise** given the vast pricing range and the influence of cabin type, route exclusivity, and booking window.
+
+
+
 ---
 
 ## 🔍 5. Feature Importance
