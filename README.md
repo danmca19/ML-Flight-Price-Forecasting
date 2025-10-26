@@ -6,7 +6,7 @@ The main goal is to identify the **best-performing regression model** and unders
 
 ---
 
-## ⚙️ 1. Data Preparation and Cleaning
+##  1. Data Preparation and Cleaning
 
 | Step | Description |
 |------|--------------|
@@ -19,7 +19,7 @@ The dataset retained **99% of valid records** after cleaning, providing a solid 
 
 ---
 
-## 🧩 2. Models Evaluated
+##  2. Models Evaluated
 
 Three algorithms were trained using complete preprocessing pipelines (imputation, scaling, and encoding):
 
@@ -31,7 +31,7 @@ Three algorithms were trained using complete preprocessing pipelines (imputation
 
 ---
 
-## 🧪 3. Cross-Validation Results
+##  3. Cross-Validation Results
 
 | Model | CV RMSE | Train RMSE | R² | Time (s) |
 |--------|----------|-------------|------|-----------|
@@ -43,7 +43,7 @@ Three algorithms were trained using complete preprocessing pipelines (imputation
 
 ---
 
-## 🏆 4. Best Model Overview
+##  4. Best Model Overview
 
 **Model:** Random Forest Regressor  
 **Cross-validation RMSE:** 4,338.28  
@@ -67,7 +67,7 @@ Three algorithms were trained using complete preprocessing pipelines (imputation
 | `airline_Vistara` | 0.01 | Some airlines consistently charge premium fares. |
 | `source_city_Delhi` | 0.01 | Departure city mildly impacts ticket cost. |
 
-📊 **Interpretation:**  
+ **Interpretation:**  
 The model aligns with real-world pricing patterns:  
 - Ticket **class** and **flight duration** dominate price formation.  
 - **Purchase anticipation** has moderate influence.  
@@ -75,7 +75,7 @@ The model aligns with real-world pricing patterns:
 
 ---
 
-## 💡 6. Recommendations and Strategic Insights
+##  6. Recommendations and Strategic Insights
 
 ### 🔧 Model Improvement Recommendations
 1. **Add new time-based features**
@@ -87,7 +87,7 @@ The model aligns with real-world pricing patterns:
 
 ---
 
-### 📈 Business Insights
+###  Business Insights
 1. **Customer segmentation:** Identify users who tend to purchase last-minute tickets for targeted promotions.
 2. **Price elasticity by class:** Small changes in “class” drive major price variations → opportunity for **up-selling** strategies.
 3. **Revenue forecasting:** The model can simulate price and revenue under different demand scenarios.
@@ -96,13 +96,13 @@ The model aligns with real-world pricing patterns:
 
 ---
 
-## 🧾 7. Overall Conclusion
+##  7. Overall Conclusion
 
 The **Random Forest model** achieved strong predictive performance (**R² ≈ 0.96**) with stable results on both training and test sets.  
 The **flight class** and **duration** are the most significant factors influencing ticket price.
 
 
-## 💰 8. Return on Investment (ROI)
+##  8. Return on Investment (ROI)
 
 The **Return on Investment (ROI)** analysis quantifies the financial impact of deploying the predictive model.  
 It evaluates how much business value the model generates compared to its **total implementation cost** (including development, infrastructure, and maintenance).
