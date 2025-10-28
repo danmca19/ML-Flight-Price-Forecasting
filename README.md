@@ -73,8 +73,7 @@ Airfare prices are highly variable, especially across airline type and class:
 ---
 
 ##  6. Feature Importance
-![SHAP Feature Importance](https://raw.githubusercontent.com/danmca19/ML-Flight-Price-Forecasting/main/SHAP.png) 
-         
+        
 | Feature | Importance | Interpretation |
 |----------|-------------|----------------|
 | `class_Business` | 0.46 | Ticket class is the top price driver. |
