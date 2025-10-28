@@ -73,7 +73,7 @@ Airfare prices are highly variable, especially across airline type and class:
 ---
 
 ##  6. Feature Importance
-![SHAP Feature Importance](https://raw.githubusercontent.com/danmca19/ML-Flight-Price-Forecasting/main/SHAP.png)
+![SHAP Feature Importance](https://raw.githubusercontent.com/danmca19/ML-Flight-Price-Forecasting/main/SHAP.png) 
          
 | Feature | Importance | Interpretation |
 |----------|-------------|----------------|
